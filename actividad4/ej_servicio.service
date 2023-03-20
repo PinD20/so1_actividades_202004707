@@ -1,0 +1,7 @@
+[Unit]
+Description=Ejecucion de script de saludo
+[Service]
+User=pind20
+ExecStart=/home/script_act4/script.sh
+[Install]
+WantedBy=multi-user.target
